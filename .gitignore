@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data: keep instructions, not raw customer data
+data/*
+!data/README.md
+*.csv
+*.xlsx
+*.xls
+
+# Generated outputs
+outputs/*
+!outputs/.gitkeep
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
